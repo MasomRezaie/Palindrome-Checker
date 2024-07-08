@@ -14,7 +14,6 @@ body {
   width: 100%;
   min-height: 100vh;
   position: relative;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +23,6 @@ body {
 .title {
   margin-bottom: 20px;
   padding: 10px 0;
-
   text-align: center;
   font-size: 2.5rem;
 }
@@ -34,12 +32,10 @@ body {
   min-height: 100px;
   margin: 10px 0;
   padding: 20px;
-
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
   border-radius: 20px;
   background-color: #ffffff;
   box-shadow: 2px 5px 6px 7px #2b2a2a;
@@ -49,4 +45,28 @@ label {
   margin-bottom: 20px;
   color: #0a0a23;
 }
+
+.palindrome-input {
+  width: 250px;
+  height: 30px;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: 2px solid rgb(5, 144, 5);
+}
+
+.palindrome-btn {
+  cursor: pointer;
+  width: 90px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: rgb(5, 144, 5);
+}
+
+
+
+
 

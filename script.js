@@ -25,10 +25,11 @@ const checkPalindrome = (input) => {
   resultDiv.classList.remove('hidden'); 
 }
 
+
 userInput.addEventListener('keydown', (e) => {
   if (e.key === 'Enter') {
-    checkPalindrome(userInput.value);
-    userInput.value = '';
+      checkPalindrome(userInput.value);
+      userInput.value = '';
   }
 })
 

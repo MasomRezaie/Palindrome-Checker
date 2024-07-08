@@ -66,6 +66,32 @@ label {
   background-color: rgb(5, 144, 5);
 }
 
+.results-div {
+  min-height: 50px;
+  overflow-y: auto;
+  word-wrap: break-word;
+  color: #000000;
+}
+
+.hidden {
+  display: none;
+}
+
+.palindrome-definition-div {
+  width: min(100vw, 450px);
+  min-height: 140px;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  border-radius: 20px;
+  background-color: #028515;
+  margin-bottom: 24px;
+}
+
+
 
 
 

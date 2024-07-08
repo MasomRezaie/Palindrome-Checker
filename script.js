@@ -24,3 +24,15 @@ const checkPalindrome = (input) => {
 
   resultDiv.classList.remove('hidden'); 
 }
+
+userInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') {
+    checkPalindrome(userInput.value);
+    userInput.value = '';
+  }
+})
+
+checkPalindromeBtn.addEventListener('click', () => {
+  checkPalindrome(userInput.value);
+  userInput.value = '';
+});
